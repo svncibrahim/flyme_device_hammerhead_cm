@@ -57,7 +57,8 @@ vendor_modify_images := boot
 vendor_saved_apps := Bluetooth BluetoothMidiService HTMLViewer KeyChain NfcNci PrintSpooler \
                      Stk UserDictionaryProvider BackupRestoreConfirmation DefaultContainerService \
                      ExternalStorageProvider FusedLocation InputDevices ProxyHandler \
-                     SharedStorageBackup Shell CMSettingsProvider telresources
+                     SharedStorageBackup Shell CMSettingsProvider telresources qcrilmsgtunnel \
+                     shutdownlistener TimeService UpdateSetting SprintHiddenMenu OmaDmclient
 
 ##############################################################################
 # The value decides which vendor apk you want to modify.
