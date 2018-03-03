@@ -132,7 +132,8 @@ board_remove_apps := LogReport
 # If 1, hide the soft mainkeys. If 0, display the soft mainkeys.
 # You should configure the property according to your device.
 override_property += \
-    qemu.hw.mainkeys=0
+    qemu.hw.mainkeys=0 \
+    ro.sf.lcd_density=445
 
 
 # The value of the property ro.flyme.romer will be contained in the ota package name.
